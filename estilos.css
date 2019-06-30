@@ -1,0 +1,96 @@
+/* fondo de la pagina */
+.blog-body{
+  background: #488FC8;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* fonde de el encabezado */
+.encabezado{
+background: #DBDFE3;
+padding: 10px;
+}
+
+.logo-img{
+  width: 20%;
+  }
+
+.img-social{
+  width: 20%;
+}
+
+.navbar{
+  background: #DBDFE3;
+}
+.menu{
+
+  background-color: #2F4861;
+  border: solid 1px;
+}
+a{
+  font-family: fantasy;
+  color: white;
+  text-decoration: none;
+}
+.content-fluid{
+background: #DBDFE3;
+}
+.noticias{
+  font-family: fantasy;
+  color: black;
+  margin: 10px;
+}
+.noti-img{
+  width: 80%;
+  margin: 10%;
+  }
+  .comenta-img{
+    width: 20%;
+  }
+  .bo-buscar{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sel-buscar{
+    padding: 10px;
+    border-bottom: solid 1px;
+
+  }
+  .busqueda p{
+    padding: 10px;
+    font-family: Verdana;
+    border-top: solid 1px;
+  }
+@media (max-width: 770px) {
+  .blog-body{
+    background: #488FC8;
+    margin-left: 0px;
+    margin-right:0px;
+    flex-direction: column;
+    display: flex;
+  }
+  .red{
+    display: none;
+  }
+  .sel-buscar {
+    text-align: center;
+  }
+  .encabezado{
+    text-align: center;
+  }
+  .logo-img{
+    width: 80%;
+  }
+  .menu{
+    border-bottom: solid 1px;
+  }
+  .input-group-btn{
+    margin: auto;
+  }
+  
+  .bo-buscar{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
